@@ -1,0 +1,300 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: Inter;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background: url(Assets/image.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0px 32px;
+}
+
+main header{
+    padding: 16px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main header nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+
+main header button{
+    background: #fff;
+    color: #000;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.hero_section{
+    padding: 80px 0px 0px 0px;
+    align-items: center;
+}
+
+.hero_div{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    gap: 48px;
+    width: 40%;
+}
+
+.hero_div h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #4a1317;
+}
+
+.hero_div button{
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 124px;
+}
+
+.hero_location{
+    margin-top: 260px;
+    padding: 30px 20px;
+    margin-left: -1100px;
+    gap: 16px;
+}
+
+.hero_location h2{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero_location p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+}
+
+.scrollable_section{
+    padding: 200px 0px;
+    gap: 48px;
+}
+
+.scrollable_section h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.scrollable_section p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.background_origin_section{
+    gap: 24px;
+}
+
+.visible_border_box_1{
+    width: 400px;
+    height: 400px;
+    border: 20px solid black;
+    background: url(Assets/Copilot_20260812_161815.png);
+    background-size: fill;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 16px;
+    background-origin: border-box;
+}
+
+.visible_border_box_2{
+    width: 400px;
+    height: 400px;
+    border: 20px solid black;
+    background: url(Assets/Copilot_20260812_161815.png);
+    background-size: fill;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 16px;   
+    background-origin: padding-box
+}
+
+.visible_border_box_3{
+    width: 400px;
+    height: 400px;
+    border: 20px solid black;
+    background: url(Assets/Copilot_20260812_161815.png);
+    background-size: fill;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 16px;
+    background-origin: content-box;
+}
+
+.background_origin_section h1{
+     background: url(https://images.alphacoders.com/102/thumb-1920-1026345.jpg);
+      font-size: 100px;
+      font-weight: 700;
+      background-size: cover;
+      background-clip: text;
+      background-position: center center;
+      color: transparent;
+}

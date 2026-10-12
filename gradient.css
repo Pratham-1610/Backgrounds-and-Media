@@ -1,0 +1,403 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: Inter;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background: linear-gradient(90deg, rgba(3,5,22,1) 10%, rgba(0,0,0,0.1) 50%),  url(Assets/gradientbg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 0px 32px;
+}
+
+main header{
+    padding: 32px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main header div{
+    align-items: center;
+}
+main header nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: 500;
+    padding: 8px 0px;
+    margin-right: 40px;
+}
+
+main header button{
+    background: linear-gradient(90deg, #e94785 50%, #8b40e4);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+}
+
+.hero_section{
+    padding: 80px 0px;
+    gap: 24px;
+    width: 30%;
+}
+
+.hero_section h1{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    background: linear-gradient(90deg, #e94785 20%, #8b40e4);
+    background-clip: text;
+    color: transparent;
+}
+
+.hero_section h2{
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.hero_section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #adaeb9;
+}
+
+.hero_section button{
+    background: linear-gradient(270deg, #e94785, #8b40e4);
+    color: #fff;
+    padding: 16px;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.features_section{
+    justify-content: center;
+    padding: 56px;
+    align-items: center;
+    gap: 8px;
+}
+
+.features_section h1{
+    font-size: 18px;
+    line-height: 44px;
+    font-weight: 600;
+    background: linear-gradient(90deg, #e94785 20%, #8b40e4);
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 0.1em;
+}
+
+.features_section h2{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+.features_section p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #adaeb9;
+}
+.cards_div{
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card_parent{
+    border-radius: 8px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 40px;
+    width: 25%;
+}
+
+.card_parent h1{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: -8px;
+}
+
+.card_parent p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+.gradient_bg_icon_1{
+    padding: 16px;
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to right, #3b82f6 0%, #8b5cf6 100%);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr_1{
+    border: 1px solid #e5e7eb;
+    margin: 16px 0px;
+    height: 2px;
+    background: linear-gradient(to right, #3b82f6 0%, #8b5cf6 100%);
+    width: 100px;
+}
+
+.gradient_bg_icon_2{
+    padding: 16px;
+    /* width: 80px;
+    height: 80px; */
+    background: radial-gradient(circle, #ff4f8b 0%, #ff9a3c 60%, rgba(255, 255, 255, 0.1) 100%);
+    /* background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 0, 0, 0) 70%); */
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr_2{
+    border: 1px solid #e5e7eb;
+    margin: 16px 0px;
+    height: 2px;
+    background: linear-gradient(135deg, #ff4f8b 0%, #ff9a3c 100%);
+    width: 100px;
+}
+
+.gradient_bg_icon_3{
+    padding: 16px;
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(red 0deg 10%, orange 60deg 10%, yellow 120deg 10%, green 180deg 10%, blue 240deg 10%, purple 300deg 10%, red 360deg 20% );
+    border-radius: 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.hr_3{
+    border: 1px solid #e5e7eb;
+    margin: 16px 0px;
+    height: 2px;
+    background: linear-gradient(to right, #00c853 0%, #2962ff 100%);
+    width: 100px;
+}
+
+.full_gradient_section{
+    background: linear-gradient(90deg, #2b1b94 40%, #f75466);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 30px 0px;
+}
+
+.full_gradient_section div{
+    gap: 24px;
+    width: 28%;
+    text-align: center;
+    align-items: center;
+}
+.full_gradient_section div h1{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.full_gradient_section div h2{
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #e94785 20%, #8b40e4);
+    background-clip: text;
+    color: transparent;
+}
+
+.full_gradient_section div p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #adaeb9;
+}
+
+.full_gradient_section div button{
+
+    color: #4108c2;
+    padding: 16px;
+    background-color: white;
+    width: 50%;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.gradient-border {
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(270deg, #e94785, #8b40e4) 1;
+}
+
+.TE{
+    border: 20px solid blue;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 1);
+}

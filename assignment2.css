@@ -180,16 +180,15 @@ main header button{
 
 .hero_div{
     justify-content: space-between;
-    text-align: center;
-    align-items: center;
+    align-items:center;
     gap: 48px;
-    width: 40%;
+    width: 100%;
 }
 
 .hero_div h1{
     font-size: 4.5rem;
     font-weight: 700;
-    color: #4a1317;
+    color: #e9e9f3;
 }
 
 .hero_div button{
